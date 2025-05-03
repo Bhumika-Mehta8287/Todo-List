@@ -1,2 +1,21 @@
-# Todo-List
-A simple and responsive TODO list app built with HTML, CSS, and JavaScript that allows users to add, delete, and manage daily tasks easily.
+# TODO List App
+
+A minimal and user-friendly TODO list application built with HTML, CSS, and JavaScript. Easily add, delete, and manage your daily tasks with a clean and responsive interface.
+
+---
+
+## Features
+- Add and delete tasks
+- Mark tasks as completed
+- Responsive design for all screen sizes
+- Lightweight and fast
+
+---
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+---
+
