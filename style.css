@@ -1,0 +1,89 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: pink;
+    margin: 0;
+  }
+  
+  h1 {
+    background: linear-gradient(to bottom, #e8a1b8, #9c27b0);
+    color: white;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .input-section {
+    margin: 30px auto;
+    width: 80%;
+    background: #db88a3;
+    border: 5px solid white;
+    box-shadow: 0 0 20px #000;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-size: 1.2em;
+    max-height: 300px;  /* Max height to enable scrolling */
+    overflow-y: auto;   /* Enable vertical scroll */
+    scrollbar-width: 100px;  /* For Firefox */
+    scrollbar-color: #e31ca8 #f4f4f4; /* For Firefox */
+  }
+  
+  ul::-webkit-scrollbar {
+    width: 10px;  /* Set the width of the scrollbar */
+  }
+  
+  ul::-webkit-scrollbar-thumb {
+    background-color: #2575fc; /* Scrollbar color */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  ul::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Track color */
+  }
+  
+  li {
+    background: rgba(0,0,0,0.3);
+    margin: 5px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;  /* Smooth transition */
+  }
+  
+  .delete-btn {
+    background: #ff4c4c;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53d29; /* Darker delete button hover color */
+  }
+  
